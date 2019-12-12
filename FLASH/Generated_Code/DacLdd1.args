@@ -1,0 +1,21 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-I"D:/daniel/Documents/Git/micro_project/Project_Headers"
+-I"D:/daniel/Documents/Git/micro_project/Project_Settings/Startup_Code"
+-I"C:/Freescale/CW MCU v11.1/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"C:/Freescale/CW MCU v11.1/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-I"D:/daniel/Documents/Git/micro_project/Generated_Code"
+-I"D:/daniel/Documents/Git/micro_project/Sources"
+-I"D:/daniel/Documents/Git/micro_project/Static_Code/PDD"
+-I"D:/daniel/Documents/Git/micro_project/Static_Code/IO_Map"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-specs=ewl_c.specs
